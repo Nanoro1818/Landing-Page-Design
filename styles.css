@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* hero */
+.hero {
+    height: 500px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.position-hero {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.position-hero .top {
+    display: flex;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+li {
+    list-style: none;
+}
+
+.position-hero .top ul {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.position-hero .top ul li a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.position-hero .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.position-hero .content .text {
+    height: 70%;
+    flex: 1;
+}
+
+.position-hero .content .text .container {
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.position-hero .content .image {
+    flex: 1;
+    height: 70%;
+}
+
+.position-hero .content .image .container {
+    height: 294px;
+}
+
+.position-hero .content .image .container img {
+    width: auto;
+    height: 100%;
+    transform: scale(.8);
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-main-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-signup-btn {
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    letter-spacing: .3px;
+}
+
+.section-more {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-more .text {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-more .text h3 {
+    font-size: 46px;
+    font-weight: extra-bold;
+}
+
+.section-more .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.section-more .content .container {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-more .content .container .more {
+    width: 135px;
+    height: 150px;
+}
+
+.section-more .content .container .more .img {
+    width: 100%;
+    height: 120px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+.section-quote {
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.section-quote .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.section-signup {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-signup .container {
+    width: 75%;
+    height: 50%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+}
+
+.section-signup .container .container {
+    height: 100%;
+    display: flex;
+}
+
+.section-signup .container .container > .text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-signup .container .container > .text > .text {
+    color: white;
+    font-size: 24px;
+}
+
+
+.section-signup .container .container > .text > .subtext {
+    color: #f9faf8;
+}
+
+.section-signup .container .container .button {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.section-signup .container .container .button button {
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-weight: bold;
+    letter-spacing: .3px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-weight: lighter;
+}
